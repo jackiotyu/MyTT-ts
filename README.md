@@ -2,8 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/mytt-ts)](https://www.npmjs.com/package/mytt-ts)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/mytt-ts)](https://bundlephobia.com/package/mytt-ts)
-[![npm downloads](https://img.shields.io/npm/dm/mytt-ts)](https://www.npmjs.com/package/mytt-ts)
-[![NPM License](https://img.shields.io/npm/l/mytt-ts)](https://www.npmjs.com/package/mytt-ts)
+[![npm downloads](https://img.shields.io/npm/dt/mytt-ts)](https://www.npmjs.com/package/mytt-ts)
+[![NPM License](https://img.shields.io/npm/l/mytt-ts)](https://github.com/jackiotyu/MyTT-ts/blob/main/LICENSE)
 
 MyTT 的 TypeScript 实现版本，将通达信、同花顺、文华麦语言等指标公式移植到 TypeScript 中。这是一个轻量级的技术分析指标库，提供了常用的股票、期货技术分析指标。
 
@@ -22,4 +22,10 @@ MyTT 的 TypeScript 实现版本，将通达信、同花顺、文华麦语言等
 
 ```bash
 # npm
-npm install mytt 
+npm install mytt-ts
+
+# yarn
+yarn add mytt-ts
+
+# pnpm
+pnpm add mytt-ts
