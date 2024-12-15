@@ -1,0 +1,15 @@
+# 源文件
+src/
+tests/
+
+# 配置文件
+.github/
+.gitignore
+rollup.config.js
+tsconfig.json
+jest.config.js
+RELEASE.md
+
+# 其他
+*.log
+.DS_Store 
