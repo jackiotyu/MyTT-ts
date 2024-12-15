@@ -1,7 +1,7 @@
 {
   "name": "mytt-ts",
   "version": "1.0.0",
-  "description": "TypeScript 库项目",
+  "description": "通达信、同花顺、文华麦语言等指标公式的 TypeScript 实现",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -13,13 +13,23 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "dev": "cross-env NODE_ENV=development rollup -c -w",
     "test": "jest",
     "prepublishOnly": "pnpm build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "trading",
+    "technical-analysis",
+    "indicators",
+    "stock",
+    "futures",
+    "macd",
+    "kdj",
+    "boll"
+  ],
+  "author": "jackiotyu",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
@@ -30,6 +40,16 @@
     "rollup": "^3.0.0",
     "ts-jest": "^29.0.0",
     "tslib": "^2.5.0",
-    "typescript": "^5.0.0"
-  }
+    "typescript": "^5.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "cross-env": "^7.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackiotyu/MyTT-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackiotyu/MyTT-ts/issues"
+  },
+  "homepage": "https://github.com/jackiotyu/MyTT-ts#readme"
 } 
