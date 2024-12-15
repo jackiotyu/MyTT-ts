@@ -1,6 +1,6 @@
 {
   "name": "mytt-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "通达信、同花顺、文华麦语言等指标公式的 TypeScript 实现",
   "type": "module",
   "main": "dist/index.js",
